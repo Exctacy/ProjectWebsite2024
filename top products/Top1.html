@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="short icon" type="image/png" href="/companylogonobg.png">
+	<link rel="stylesheet" type="text/css" href="/Main.css">
+	<link rel="stylesheet" type="text/css" href="/product.css">
+	<link rel="stylesheet" type="text/css" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<title>RGC Daily Discoveries</title>
+</head>
+<body>
+	<div class="top">
+		<div class="top-nav">
+			<div class="top-logo">
+				<a id ="toplogo" href="/Main.html"><img id ="top-logo" src="/companylogonobg.png"></a>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Shop</button>
+				<div class="dropdown-content">
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Mugs</h4></li>
+						  <li><a href="/Project-Semi-Finals/products/coffeemugs.html">Coffee Mugs</a></li>
+						  <li><a href="#">Beer Mugs</a></li>
+						  <li><a href="#">Frosted Mugs</a></li>
+						</ul>
+					</div>
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Plaques</h4></li>
+						  <li><a href="/Project-Semi-Finals/products/coffeemugs.html">Quadrilateral Plaques</a></li>
+						  <li><a href="#">Customizable Plaques</a></li>
+						  <br><br><br>
+						  <li><h4>Others</h4></li>
+						  <li><a href="#">Medals</a></li>
+						  <li><a href="#">Brass Plates</a></li>
+						</ul>
+					</div>
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Trophy</h4></li>
+						  <li><a href="/Project-Semi-Finals/products/coffeemugs.html">Glass Trophy</a></li>
+						  <li><a href="#">Statue Trophy</a></li>
+						  <li><a href="#">Cup Trophy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<a href="#footer">Contact Us</a>
+			<a href="https://www.jtexpress.ph/trajectoryQuery?flag=1">Tracking</a>
+			<div class="dropdown-content-right">
+				<a id="Search1"><i class="fa fa-search" aria-hidden="true"></i></a>
+				<div class="search-con">
+					<input type="text" id="search-input" placeholder="Search...">
+				</div>
+				<a id="Cart1"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+				<a id="Login1" href="Login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+				<script type="text/javascript">
+					const search1 = document.getElementById('Search1');
+					const searchCon = document.querySelector('.search-con');
+					search1.addEventListener('click', function() {
+					    if (searchCon.style.display === 'block') {
+					        searchCon.style.display = 'none';
+					    } else {
+					        searchCon.style.display = 'block';
+					    }
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+	<div class="prod-container">
+		<div class="product">
+			<img src="/top products/images/tp1.jpg" alt="Sweese Mug Set">
+			<div class="social-share">Share:
+		        <a href="#"><i class="fab fa-facebook"></i></a>
+		        <a href="#"><i class="fab fa-twitter"></i></a>
+		        <a href="#"><i class="fab fa-pinterest"></i></a>
+		        <a href="#"><i class="fab fa-instagram"></i></a>
+		  </div>
+		  <div class="wishlist">Add to Wishlist
+		        <i class="far fa-heart"></i>
+		  </div>
+		</div>
+	  <div class="info-container">
+		  <div class="info">
+			    <h1>Beer Mug</h1>
+			    <span class="rating">4.8
+			      <i class="fa fa-star"></i>
+			      <i class="fa fa-star"></i>
+			      <i class="fa fa-star"></i>
+			      <i class="fa fa-star"></i>
+			      <i class="fa fa-star-half-o"></i>
+			      <a href="#">9.6k Rating</a>
+			      <span class="sold">131 sold</span>
+			    </span>
+			    <div class="price-section">
+			      <a class="price">&#8369; 500.00</a>
+			      <a class="discount">15% off for New Users</a>
+			    </div>
+			    <div>
+			    	<span class="in-stock">In Stock:</span>
+    				<span class="in-stock-n">43</span>
+			    </div>
+  		 	<div class="size-options">
+  		 	  <span class="size-label">Size:</span>
+          <span class="size" id="size-small" data-size="small" onclick="selectSize('size-small')">S</span>
+          <span class="size" id="size-medium" data-size="medium" onclick="selectSize('size-medium')">M</span>
+          <span class="size" id="size-large" data-size="large" onclick="selectSize('size-large')">L</span>
+          <span class="size" id="size-xlarge" data-size="xlarge" onclick="selectSize('size-xlarge')">XL</span>
+        </div>
+        <script type="text/javascript">
+          function selectSize(selectedSizeId) {
+            const sizeElements = document.querySelectorAll('.size');
+            sizeElements.forEach((sizeElement) => {
+                sizeElement.classList.remove('active');
+            });
+            const selectedSizeElement = document.getElementById(selectedSizeId);
+            if (selectedSizeElement) {
+                selectedSizeElement.classList.add('active');
+            }
+          }
+        </script>
+
+			<div class="quantity-section">
+		        <span class="qty-label">Quantity:</span>
+		        <input type="number" min="1" value="1" class="qty-input">
+		  </div>
+			<div class="action-buttons">
+		        <a href="/Main.html"><button class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</button></a>
+		        <a href="/Main.html">
+		        <button class="buy-now">Buy Now</button>
+		        </a>
+		  </div>
+		    <div class="free-shipping">
+		      <i class="fa fa-truck"></i> Free Shipping on orders above &#8369; 800!
+		  	</div>
+		</div>
+	 </div>
+  </div>
+	<div class="footer" id="footer">
+		<h1>RGC Mojello</h1>
+		190 Miguelin St., Barangay 423 Zone 43 1008 Sampaloc, Metro Manila<br>
+		Cellphone Number: 0917-948-5481
+		<br>Email Address: rica.gabrielle10@gmail.com
+		<p>Copyright 2024. All rights reserved</p>
+	</div>
+</body>
+</html>

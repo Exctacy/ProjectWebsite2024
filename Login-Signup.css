@@ -1,0 +1,64 @@
+.banner {
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 30%;
+}
+input[type=text], input[type=password], input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+form button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+form button:hover {
+  opacity: 0.8;
+  box-shadow: 0px 8px 16px 0px green; 
+}
+.Loginbtn, .signupbtn {
+   background-color: black;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.container {
+  padding: 16px;
+}
+span a {
+  text-decoration: none;
+  color: black;
+}
+.psw {
+  float: right;
+}
+.signup {
+  display: table;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+  .Loginbtn, .signupbtn {
+    border-radius: 100px;
+    width: 90%;
+  }
+}

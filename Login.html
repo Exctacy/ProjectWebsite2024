@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="short icon" type="image/png" href="companylogonobg.png">
+	<link rel="stylesheet" type="text/css" href="Main.css">
+	<link rel="stylesheet" type="text/css" href="Login-Signup.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.min.css">
+	<title>RGC Login</title>
+</head>
+<body>
+  <div class="top">
+		<div class="top-nav">
+			<div class="top-logo">
+				<a id ="toplogo" href="Main.html"><img id ="top-logo" src="companylogonobg.png"></a>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Shop</button>
+				<div class="dropdown-content">
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Mugs</h4></li>
+						  <li><a href="/Project-Semi-Finals/products/coffeemugs.html">Coffee Mugs</a></li>
+						  <li><a href="#">Beer Mugs</a></li>
+						  <li><a href="#">Frosted Mugs</a></li>
+						</ul>
+					</div>
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Plaques</h4></li>
+						  <li><a href="/Project-Semi-Finals/products/coffeemugs.html">Quadrilateral Plaques</a></li>
+						  <li><a href="#">Customizable Plaques</a></li>
+						  <br><br><br>
+						  <li><h4>Others</h4></li>
+						  <li><a href="#">Medals</a></li>
+						  <li><a href="#">Brass Plates</a></li>
+						</ul>
+					</div>
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Trophy</h4></li>
+						  <li><a href="/Project-Semi-Finals/products/coffeemugs.html">Glass Trophy</a></li>
+						  <li><a href="#">Statue Trophy</a></li>
+						  <li><a href="#">Cup Trophy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<a href="#footer">Contact Us</a>
+			<a href="https://www.jtexpress.ph/trajectoryQuery?flag=1">Tracking</a>
+			<div class="dropdown-content-right">
+				<a id="Search1"><i class="fa fa-search" aria-hidden="true"></i></a>
+				<div class="search-con">
+					<input type="text" id="search-input" placeholder="Search...">
+				</div>
+				<a id="Cart1"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+				<a id="Login1" href="Login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+				<script type="text/javascript">
+					const search1 = document.getElementById('Search1');
+					const searchCon = document.querySelector('.search-con');
+					search1.addEventListener('click', function() {
+					    if (searchCon.style.display === 'block') {
+					        searchCon.style.display = 'none';
+					    } else {
+					        searchCon.style.display = 'block';
+					    }
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+	<div class="banner">
+		<h3>LOGIN</h3>
+		<form action="action_page.php" method="post">
+  			<div class="container">
+    			<label for="uname">Email</label>
+    			<input type="email" name="uname" required>
+				<label for="psw">Password</label>
+    			<input type="password" name="psw" required>
+    			<label>
+					<input type="checkbox" name="remember"> Remember me
+				</label>
+    			<span class="psw"><a href="#">Forgot password?</a></span>
+				<button type="submit" class="Loginbtn">Login</button>
+				<span class="signup"><a href="Signup.html">Create account</a></span>
+			</div>
+    	</form>
+	</div>
+	<div class="footer" id="footer">
+		<h1>RGC Mojello</h1>
+		190 Miguelin St., Barangay 423 Zone 43 1008 Sampaloc, Metro Manila<br>
+		Cellphone Number: 0917-948-5481
+		<br>Email Address: rica.gabrielle10@gmail.com
+		<p>Copyright 2024. All rights reserved</p>
+	</div>
+</body>
+</html>
