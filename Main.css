@@ -171,9 +171,10 @@ body {
   	to {opacity: 1}
 }
 .content {
-    margin: 30px auto 15%;
+    margin: 15% 5%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 30px;
     justify-content: center;
 }
@@ -205,7 +206,7 @@ body {
 
 .front-card {
   position: relative;
-  width: 300px;
+  width: 30%;
   height: 300px;
   background-color: white;
   border-radius: 15px;
@@ -249,6 +250,7 @@ body {
 
 .rating {
   margin-bottom: 5px;
+  margin-right: 10px;
 }
 
 .rating i {
