@@ -10,6 +10,7 @@
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	margin-bottom: -19%;
 }
 .card 
 {
@@ -18,13 +19,13 @@
 	height: 380px;
 	background: #0000;
 	display: flex;
-	box-shadow: 0 15px 45px rgba(0,0,0,0.1);
 	overflow: hidden;
 	transition: 0.5s ease-in-out;
 }
 .card:hover 
 {
 	width: 600px;
+	box-shadow: 0 8px 16px 0 green;
 }
 .card .imgBx 
 {
@@ -48,7 +49,7 @@
 	left: 0;
 	width: 350px;
 	height: 100%;
-	background: #4ba9e9;
+	background: black;
 	display: flex;
 	justify-content: center;
 	padding: 20px;
@@ -102,12 +103,12 @@ p
 	font-size: 0.8em;
 	opacity: 0.85;
 }
-.size 
+.size1
 {
 	display: flex;
 	gap: 10px;
 }
-.size li 
+.size1 li 
 {
 	list-style: none;
 	color: #fff;
@@ -122,10 +123,10 @@ p
 	font-weight: 500;
 	opacity: 0.5;
 }
-.size li:hover 
+.size1 li:hover 
 {
 	background: #fff;
-	color: #4ba9e9;
+	color: gray;
 	opacity: 1;
 }
 .group 
@@ -136,9 +137,9 @@ p
 	margin-top: 20px;
 	align-items: center;
 }
-.card .details h2 
+.card .details h2
 {
-	color: #fff;
+	color: white;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 2em;
@@ -155,10 +156,18 @@ p
 {
 	display: inline-flex;
 	padding: 10px 25px;
-	background: #fff;
+	background: white;
 	font-weight: 500;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #4ba9e9;
+	color: black;
+}
+.section
+{
+  margin-top: 15%;
+}
+.titel
+{
+  margin: 5% 0 -10% 18%;
 }
