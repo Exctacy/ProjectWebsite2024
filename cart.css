@@ -1,0 +1,109 @@
+:root {
+	--black: #2e2e35;
+	--dgreen: #353f3a;
+	--grass: #677162;
+	--gray: #a3a69d;
+	--idk: #657176;
+	--white: #fbfbfb;
+}
+
+body{
+    margin: 0;
+  background-color: var(--grass)
+}
+.cart-icon a{
+    background-color: gray;
+}
+.cart-con {
+    margin: 30px auto;
+    width: 60%;
+    background-color: var(--gray);
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cart-image img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: var(--black);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.cart-content{
+    width: 100%;
+    background-color: var(--white);
+    height: 200px;
+    padding-left: 20px;
+    margin: 30px 30px 0px 0px; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.cart-info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    float: left;
+    flex: 1;
+    width: 40%;
+}
+
+.quantity{
+    display: flex;
+}
+.qty-input {
+    width: 30px;
+}
+.qty-label {
+    color: var(--black);  
+}
+
+.cart-info h2 {
+    color: var(--white);
+    background-color: var(--dgreen);
+    padding-left: 20px;
+    border-radius: 50px;
+  
+}
+.price {
+    margin-top: 10px;
+}
+.previous-price{
+    font-size: 12px;
+    font-family: 'Calibri';
+    color: gray;
+    display: block;
+}
+
+.check-out{
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 10px 0px 10px 0px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.check-out-active{
+    background-color: var(--dgreen);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.payment-options {
+    display: block;
+    float: right;
+    flex: 1;
+    width: 60%;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+.payment-options  p, .payment-options i{
+    margin-left: 30px;
+}
+.payment-options i{
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+  
