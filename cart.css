@@ -9,7 +9,7 @@
 
 body{
     margin: 0;
-  background-color: var(--grass)
+  background-color: var(--grass);
 }
 .cart-icon a{
     background-color: gray;
