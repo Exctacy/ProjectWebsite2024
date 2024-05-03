@@ -50,11 +50,11 @@ body {
 	color: black;
 }
 .wishlist{
-	position: absolute;
-    bottom: 0;
-    right: 0;
+	position: relative;
+  bottom: 0;
+  right: 0;
 	color: red;
-    padding: 5px;
+  padding: 5px;
 }
 
 .info-container {
@@ -163,7 +163,7 @@ body {
 }
 
 .size:hover {
-  background-color: #ddd; 
+  background-color: #f79e1b; 
 }
 
 .size-label {
@@ -210,7 +210,7 @@ flex-direction: row;
 }
 
 .policy-content {
-  margin: 10px 0; 
+  margin: 10px auto;
 }
 
 .policy p,
@@ -220,6 +220,15 @@ flex-direction: row;
   margin: 5px 0;
   overflow: hidden; 
   font-family: 'Calibri', sans-serif;
+  text-align: justify;
+  padding: 0;
+  margin: 0 8%;
+}
+
+.policy-content ol, li {
+  padding: 0;
+  margin: 0 8%;
+  text-align: left;
 }
 
 .policy ul {
