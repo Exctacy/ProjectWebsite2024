@@ -1,14 +1,445 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="short icon" type="image/png" href="companylogonobg.png">
+		<link rel="stylesheet" type="text/css" href="/category.css">
+		<link rel="stylesheet" type="text/css" href="/product.css">
+		<link rel="stylesheet" type="text/css" href="/Main.css">
+		<link rel="stylesheet" type="text/css" href="/font-awesome-4.7.0\css\font-awesome.min.css">
+	<title>RGC Products</title>
 </head>
-
 <body>
-
+	<div class="top">
+		<div class="top-nav">
+			<div class="top-logo">
+				<a id ="toplogo" href="Main.html"><img id ="top-logo" src="companylogonobg.png"></a>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Shop</button>
+				<div class="dropdown-content">
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Mugs</h4></li>
+						  <li><a href="/products/1category.html">Coffee Mugs</a></li>
+						  <li><a href="/products/2category.html">Beer Mugs</a></li>
+						</ul>
+					</div>
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Others</h4></li>
+						  <li><a href="/products/6category.html">Medals</a></li>
+						  <li><a href="/products/7category.html">Brass Plates</a></li>
+						</ul>
+					</div>
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Trophy</h4></li>
+						  <li><a href="/products/8category.html">Glass Trophy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<a href="#footer">Contact Us</a>
+			<a href="https://www.jtexpress.ph/trajectoryQuery?flag=1">Tracking</a>
+			<div class="dropdown-content-right">
+				<a id="Search1"><i class="fa fa-search" aria-hidden="true"></i></a>
+				<div class="search-con">
+					<input type="text" id="search-input" placeholder="Search...">
+				</div>
+				<a id="Cart1" href="Cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+				<a id="Login1" href="Login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+				
+				<script type="text/javascript">
+					const search1 = document.getElementById('Search1');
+					const searchCon = document.querySelector('.search-con');
+					search1.addEventListener('click', function() {
+					    if (searchCon.style.display === 'block') {
+					        searchCon.style.display = 'none';
+					    } else {
+					        searchCon.style.display = 'block';
+					    }
+					});
+				</script>
+			</div>
+		</div>
+	</div>	
+	<div class="titel"><h4>12 Products (Beer Mugs)</h4></div>
+	<div class="main">
+		<div class="card">
+		  <div class="imgBx">
+		    <img src="beermugs\bm1.png">
+		  </div>
+		  <div class="details">
+		    <h3>PLAIN BEERMUG .5L<br><span>The mug has a simple, cylindrical design with a smooth surface. It has a large, clear handle for easy gripping.</span></h3>
+		    <h4>Size</h4>
+		    <ul class="size1">
+		      <li>S</li>
+		      <li>M</li>
+		      <li>L</li>
+		      <li>XL</li>
+		    </ul>
+		    <div class="product-info" style="margin-top: 10px;">
+		      <span class="rating">
+		        <i class="fa far-star"></i>
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star-half-o"></i>
+		      </span>
+		    </div>
+		    <div class="group">
+		      <h2><sup>₱</sup>199<small>.99</small></h2>
+		      <a href="#">Buy Now</a>
+		    </div>
+		  </div>
+		</div>
+		<div class="card">
+		  <div class="imgBx">
+		    <img src="beermugs\bm2.png">
+		  </div>
+		  <div class="details">
+		    <h3>PLAIN BEERMUG 1L<br><span>It has a capacity of 1 liter, which is double the size of a standard beer mug (500ml) [1]. This large size makes it suitable for big beers or for people who want to enjoy a large serving of their favorite brew.</span></h3>
+		    <h4>Size</h4>
+		    <ul class="size1">
+		      <li>S</li>
+		      <li>M</li>
+		      <li>L</li>
+		      <li>XL</li>
+		    </ul>
+		    <div class="product-info" style="margin-top: 10px;">
+		      <span class="rating">
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star"></i>
+		      </span>
+		    </div>
+		    <div class="group">
+		      <h2><sup>₱</sup>199<small>.99</small></h2>
+		      <a href="#">Buy Now</a>
+		    </div>
+		  </div>
+		</div>
+		<div class="card">
+		  <div class="imgBx">
+		    <img src="beermugs\bm3.jpg">
+		  </div>
+		  <div class="details">
+		    <h3>PLAIN 2024 BM<br><span>It appears to be a promotional beer mug with the text "2024" and "Free Engraving Up to 40 Characters" etched on it.</span></h3>
+		    <h4>Size</h4>
+		    <ul class="size1">
+		      <li>S</li>
+		      <li>M</li>
+		      <li>L</li>
+		      <li>XL</li>
+		    </ul>
+		    <div class="product-info" style="margin-top: 10px;">
+		      <span class="rating">
+		        <i class="fa far	-star"></i>
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star"></i>
+		        <i class="fa fa-star"></i>
+		      </span>
+		    </div>
+		    <div class="group">
+		      <h2><sup>₱</sup>199<small>.99</small></h2>
+		      <a href="#">Buy Now</a>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="main">
+	  <div class="card">
+	    <div class="imgBx">
+	      <img src="beermugs\bm4.jpg">
+	    </div>
+	    <div class="details">
+	      <h3>MUNICH 2024 BM 1L<br><span>The mug has a simple, cylindrical design with a smooth surface and a large, clear handle for easy gripping, especially important for a mug this size.</span></h3>
+	      <h4>Size</h4>
+	      <ul class="size1">
+	        <li>S</li>
+	        <li>M</li>
+	        <li>L</li>
+	        <li>XL</li>
+	      </ul>
+	      <div class="product-info" style="margin-top: 10px;">
+	        <span class="rating">
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	        </span>
+	      </div>
+	      <div class="group">
+	        <h2><sup>₱</sup>199<small>.99</small></h2>
+	        <a href="#">Buy Now</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="imgBx">
+	      <img src="beermugs\bm5.jpg">
+	    </div>
+	    <div class="details">
+	      <h3>DIMPLED OKTOBERFEST 1L<br><span>the mug is a dimpled 1 liter Oktoberfest glass beer mug. It’s likely made of clear glass, allowing you to see the color of the beer inside.</span></h3>
+	      <h4>Size</h4>
+	      <ul class="size1">
+	        <li>S</li>
+	        <li>M</li>
+	        <li>L</li>
+	        <li>XL</li>
+	      </ul>
+	      <div class="product-info" style="margin-top: 10px;">
+	        <span class="rating">
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star-half-o"></i>
+	        </span>
+	      </div>
+	      <div class="group">
+	        <h2><sup>₱</sup>199<small>.99</small></h2>
+	        <a href="#">Buy Now</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="imgBx">
+	      <img src="beermugs\bm6.png">
+	    </div>
+	    <div class="details">
+	      <h3>SLIM PLAIN BM “HEAVY”<br><span>This likely refers to the design of the mug inside the bag. It might be a tall and slender mug with a smooth, unadorned surface</span></h3>
+	      <h4>Size</h4>
+	      <ul class="size1">
+	        <li>S</li>
+	        <li>M</li>
+	        <li>L</li>
+	        <li>XL</li>
+	      </ul>
+	      <div class="product-info" style="margin-top: 10px;">
+	        <span class="rating">
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	        </span>
+	      </div>
+	      <div class="group">
+	        <h2><sup>₱</sup>199<small>.99</small></h2>
+	        <a href="#">Buy Now</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="main">
+	  <div class="card">
+	    <div class="imgBx">
+	      <img src="beermugs\bm7.jpg">
+	    </div>
+	    <div class="details">
+	      <h3>DIMPLED OKTOBERFEST BM .5L<br><span>The mug has a simple, cylindrical design with a smooth surface and a large, clear handle for easy gripping.</span></h3>
+	      <h4>Size</h4>
+	      <ul class="size1">
+	        <li>S</li>
+	        <li>M</li>
+	        <li>L</li>
+	        <li>XL</li>
+	      </ul>
+	      <div class="product-info" style="margin-top: 10px;">
+	        <span class="rating">
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	        </span>
+	      </div>
+	      <div class="group">
+	        <h2><sup>₱</sup>199<small>.99</small></h2>
+	        <a href="#">Buy Now</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="imgBx">
+	      <img src="beermugs\bm8.jpg">
+	    </div>
+	    <div class="details">
+	      <h3>DIMPLED OKTOBERFEST BM with FLAT REWTER 1L<br><span>The design of the mug is characterized by the reactive glaze, which creates a random, swirling pattern.</span></h3>
+	      <h4>Size</h4>
+	      <ul class="size1">
+	        <li>S</li>
+	        <li>M</li>
+	        <li>L</li>
+	        <li>XL</li>
+	      </ul>
+	      <div class="product-info" style="margin-top: 10px;">
+	        <span class="rating">
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star-half-o"></i>
+	        </span>
+	      </div>
+	      <div class="group">
+	        <h2><sup>₱</sup>199<small>.99</small></h2>
+	        <a href="#">Buy Now</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="imgBx">
+	      <img src="beermugs\bm9.jpg">
+	    </div>
+	    <div class="details">
+	      <h3>GLASS BEER BOOT 1L<br><span>Designed like a classic rain boot with a curved shaft, ankle section, and a raised boot toe. It has a thick, flat base for stability.</span></h3>
+	      <h4>Size</h4>
+	      <ul class="size1">
+	        <li>S</li>
+	        <li>M</li>
+	        <li>L</li>
+	        <li>XL</li>
+	      </ul>
+	      <div class="product-info" style="margin-top: 10px;">
+	        <span class="rating">
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	        </span>
+	      </div>
+	      <div class="group">
+	        <h2><sup>₱</sup>199<small>.99</small></h2>
+	        <a href="#">Buy Now</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="main">
+	  <div class="card">
+	    <div class="imgBx">
+	      <img src="beermugs\bm10.jpg">
+	    </div>
+	    <div class="details">
+	      <h3>BARREL GLASS BM<br><span>They have a cylindrical body that curves inward at the top and bottom, giving them a barrel-like shape.</span></h3>
+	      <h4>Size</h4>
+	      <ul class="size1">
+	        <li>S</li>
+	        <li>M</li>
+	        <li>L</li>
+	        <li>XL</li>
+	      </ul>
+	      <div class="product-info" style="margin-top: 10px;">
+	        <span class="rating">
+	          <i class="fa far-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	        </span>
+	      </div>
+	      <div class="group">
+	        <h2><sup>₱</sup>199<small>.99</small></h2>
+	        <a href="#">Buy Now</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="imgBx">
+	      <img src="beermugs\bm11.jpg">
+	    </div>
+	    <div class="details">
+	      <h3>ANCHOR HOOKING GLASS<br><span>The mug has a simple, cylindrical design with a smooth surface and a large, clear handle for easy gripping.</span></h3>
+	      <h4>Size</h4>
+	      <ul class="size1">
+	        <li>S</li>
+	        <li>M</li>
+	        <li>L</li>
+	        <li>XL</li>
+	      </ul>
+	      <div class="product-info" style="margin-top: 10px;">
+	        <span class="rating">
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	        </span>
+	      </div>
+	      <div class="group">
+	        <h2><sup>₱</sup>199<small>.99</small></h2>
+	        <a href="#">Buy Now</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="imgBx">
+	      <img src="beermugs\bm12.jpg">
+	    </div>
+	    <div class="details">
+	      <h3>PARNO GLASS STEIN MUG<br><span>The glass raw materials are selected carefully, pure and lead-free, fine processing, high white glass and transparent High transparency, crystal clear, close to crystal glass.</span></h3>
+	      <h4>Size</h4>
+	      <ul class="size1">
+	        <li>S</li>
+	        <li>M</li>
+	        <li>L</li>
+	        <li>XL</li>
+	      </ul>
+	      <div class="product-info" style="margin-top: 10px;">
+	        <span class="rating">
+	          <i class="fa far-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	          <i class="fa fa-star"></i>
+	        </span>
+	      </div>
+	      <div class="group">
+	        <h2><sup>₱</sup>199<small>.99</small></h2>
+	        <a href="#">Buy Now</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<!-- The Benefits -->
+	<section class="section benefits">
+	  <div class="benefit-center box">
+	    <div class="benefit">
+	      <span class="icon"><i class="fa fa-tag"></i></span>
+	      <h4>Free Shipping</h4>
+	      <span class="text">Capped at ₱800 per order</span>
+	    </div>
+	    <div class="benefit">
+	      <span class="icon"><i class="fa fa-truck"></i></span>
+	      <h4>7-Day Returns</h4>
+	      <span class="text">Shop without any fear</span>
+	    </div>
+	    <div class="benefit">
+	      <span class="icon"><i class="fa fa-headphones"></i></span>
+	      <h4>Responsive Chat/Voice Support</h4>
+	      <span class="text">We are always here to assist</span>
+	    </div>
+	  </div>
+	</section>
+	
+	<div class="footer" id="footer">
+	  <div class="footer-text">
+		<h1>RGC Mojello</h1>
+		190 Miguelin St., Barangay 423 Zone 43 1008 Sampaloc,<br>Metro Manila<br>
+		(+63) 917-948-5481
+		<br>rica.gabrielle10@gmail.com
+		<p>Copyright 2024. All rights reserved</p>
+    </div>
+	</div>
 </body>
-
 </html>

@@ -64,7 +64,7 @@ body{
     color: var(--white);
     background-color: var(--dgreen);
     padding-left: 20px;
-    border-radius: 50px;
+    border-radius: 10px;
   
 }
 .price {
