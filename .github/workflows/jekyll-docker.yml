@@ -1,4 +1,6 @@
+* @global-owner1 @global-owner2
 name: Jekyll site CI
+theme:  jekyll-theme-docker
 
 on:
   push:
