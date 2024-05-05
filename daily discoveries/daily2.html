@@ -14,7 +14,7 @@
 	<div class="top">
 		<div class="top-nav">
 			<div class="top-logo">
-				<a id ="toplogo" href="index.html"><img id ="top-logo" src="companylogonobg.png"></a>
+				<a id ="toplogo" href="/index.html"><img id ="top-logo" src="/companylogonobg.png"></a>
 			</div>
 			<div class="dropdown">
 				<button class="dropbtn">Shop</button>
@@ -22,25 +22,55 @@
 					<div class="dc-con">
 						<ul>
 						  <li><h4>Mugs</h4></li>
-						  <li><a href="/products/1category.html">Coffee Mugs</a></li>
-						  <li><a href="/products/2category.html">Beer Mugs</a></li>
+						  <li><a href="products/1category.html">Coffee Mugs</a></li>
+						  <li><a href="products/2category.html">Beer Mugs</a></li>
+						  <li><a href="products/3category.html">Frosted Mugs</a></li>
 						</ul>
 					</div>
 					<div class="dc-con">
 						<ul>
+						  <li><h4>Plaques</h4></li>
+						  <li><a href="products/4category.html">Quadrilateral Plaques</a></li>
+						  <li><a href="products/5category.html">Customizable Plaques</a></li>
+						  <br><br><br>
 						  <li><h4>Others</h4></li>
-						  <li><a href="/products/6category.html">Medals</a></li>
-						  <li><a href="/products/7category.html">Brass Plates</a></li>
+						  <li><a href="products/6category.html">Medals</a></li>
+						  <li><a href="products/7category.html">Brass Plates</a></li>
 						</ul>
 					</div>
 					<div class="dc-con">
 						<ul>
 						  <li><h4>Trophy</h4></li>
-						  <li><a href="/products/8category.html">Glass Trophy</a></li>
+						  <li><a href="products/8category.html">Glass Trophy</a></li>
+						  <li><a href="products/9category.html">Statue Trophy</a></li>
+						  <li><a href="products/10category.html">Cup Trophy</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
+			<a href="#footer">Contact Us</a>
+			<a href="https://www.jtexpress.ph/trajectoryQuery?flag=1">Tracking</a>
+			<div class="dropdown-content-right">
+				<a id="Search1"><i class="fa fa-search" aria-hidden="true"></i></a>
+				<div class="search-con">
+					<input type="text" id="search-input" placeholder="Search...">
+				</div>
+				<a id="Cart1"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+				<a id="Login1" href="Login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+				<script type="text/javascript">
+					const search1 = document.getElementById('Search1');
+					const searchCon = document.querySelector('.search-con');
+					search1.addEventListener('click', function() {
+					    if (searchCon.style.display === 'block') {
+					        searchCon.style.display = 'none';
+					    } else {
+					        searchCon.style.display = 'block';
+					    }
+					});
+				</script>
+			</div>
+		</div>
+	</div>
 	<div class="prod-container">
 		<div class="product">
 			<img src="/daily discoveries/images/dd1.png" alt="Sweese Mug Set">
