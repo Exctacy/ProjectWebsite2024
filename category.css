@@ -10,7 +10,7 @@
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	margin-bottom: -19%;
+	margin-bottom: 0;
 }
 .card 
 {
@@ -134,7 +134,7 @@ p
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 20px;
+	margin-top: 10px;
 	align-items: center;
 }
 .card .details h2

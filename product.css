@@ -3,11 +3,11 @@ body {
 }
 
 .main {
-  margin: 3% auto;
+  margin: 1% auto;
 }
 .prod-container {
   display: flex;
-  width: 80%;
+  width: 70%;
   margin: 50px auto;
   gap: 30px;
   background-color: white;
