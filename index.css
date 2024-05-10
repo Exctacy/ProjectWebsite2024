@@ -308,7 +308,7 @@ body {
 	width: 100%;
 	background-color: black;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: right;
 	text-align: right;
 	color: var(--white);
@@ -316,14 +316,33 @@ body {
 	letter-spacing: 1px;
 }
 
+.footer-img {
+  display: flex;
+  flex-direction: column ;
+  justify-content:center ;
+}
+
+.footer-img ul,ol,a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  text-align: left;
+}
+
+.footer-img img {
+  height: 100px;
+  margin-left: 30%;
+  width: 100px;
+}
+
 .footer-text {
-  margin-left: 48%;
+  margin-left: 30%;
   width: 50%;
   font-size: 15px;
   
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .cbutton {
     display: block;
   }
