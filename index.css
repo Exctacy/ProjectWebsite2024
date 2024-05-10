@@ -324,9 +324,6 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .top-nav {
-    overflow: visible;
-  }
   .cbutton {
     display: block;
   }
