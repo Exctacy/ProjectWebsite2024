@@ -28,7 +28,7 @@
     transition: 0.3s;
   }
   
-  .overlaynav a:hover, .overlay a:focus {
+  .overlaynav a:hover, .overlaynav a:focus {
     color: #f1f1f1;
   }
   
@@ -40,8 +40,8 @@
   }
   
   @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
+    .overlaynav a {font-size: 20px}
+    .overlaynav .closebtn {
     font-size: 40px;
     top: 15px;
     right: 35px;
