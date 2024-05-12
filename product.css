@@ -57,7 +57,7 @@ body {
   bottom: 0;
   right: 0;
 	color: red;
-  padding: 5px;
+  padding: 5px 0px 5px 10px;
 }
 
 .info-container {
@@ -174,8 +174,6 @@ body {
   display: inline-flex;
 }
 
-
-
 .toggle-con {
 display: flex;
 width: 70%;
@@ -239,7 +237,6 @@ flex-direction: row;
   padding-left: 15px;
 }
 
-
 .info-tab{
 	flex: 1;
 	background-color: white;
@@ -249,7 +246,6 @@ flex-direction: row;
 	flex-direction: column;
 	padding: 10px;	
 }
-
 
 .specification h4{
 	background-color: black;
@@ -310,4 +306,80 @@ flex-direction: row;
 }
 .desc-info{
 	padding: 0px 40px 20px 30px;
+}
+
+.review {
+  border: 1px solid #ddd;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 70%;
+  background-color: white;
+  border-radius: 5px;
+}
+.reviewer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.reviewer-details {
+  display: flex;
+  flex-direction: column;
+}
+.review-count {
+  color: #aaa;
+  padding-left: 10px;
+  font-family: 'calibri';
+}
+.reviewer-location i{
+  color: #aaa;
+  gap: 5px;
+  font-size: 13px;
+  padding-top: 3px;
+}
+.review-date {
+  color: #aaa;
+  font-size: 0.8em;
+  margin-left: auto;
+}
+.reviewer-name, .reviewer-location {
+  font-weight: bold;
+  display: flex;
+  font-family: 'Cambria';
+  padding-top: 5px;
+}
+.reviewer-location{
+  font-family: 'calibri';
+}
+.review-content {
+  padding: 15px;
+}
+.review-content i{
+  color: gold;
+}
+.review-actions {
+  display: flex;
+  padding: 0px 0px 10px 30px;
+  gap: 20px;
+}
+
+.useful-btn,
+.share-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.useful-btn {
+  background-color: #eee;
+}
+
+.share-btn {
+  background-color: #ddd;
 }
