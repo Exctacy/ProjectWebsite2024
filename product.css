@@ -383,3 +383,39 @@ flex-direction: row;
 .share-btn {
   background-color: #ddd;
 }
+
+
+.user-review {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.user-review h3 {
+  padding-left: 10px;
+}
+
+.user-review textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical; 
+}
+
+.user-review textarea:focus {
+  outline: none;
+  border-color: #007bff; 
+}
+
+.user-review .submit-review-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-review .submit-review-btn:hover {
+  background-color: #0056b3;
+}

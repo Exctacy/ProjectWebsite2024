@@ -1,14 +1,326 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="short icon" type="image/png" href="companylogonobg.png">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="product.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<title>RGC Daily Discoveries</title>
 </head>
-
 <body>
+	<div class="top">
+		<div class="top-nav">
+			<div class="top-logo">
+				<a id ="toplogo" href="index.html"><img id ="top-logo" src="companylogonobg.png"></a>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Shop</button>
+				<div class="dropdown-content">
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Mugs</h4></li>
+						  <li><a href="1category.html">Coffee Mugs</a></li>
+						  <li><a href="2category.html">Beer Mugs</a></li>
+						  <li><a href="3category.html">Frosted Mugs</a></li>
+						</ul>
+					</div>
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Plaques</h4></li>
+						  <li><a href="4category.html">Quadrilateral Plaques</a></li>
+						  <li><a href="5category.html">Customizable Plaques</a></li>
+						  <br><br><br>
+						  <li><h4>Others</h4></li>
+						  <li><a href="6category.html">Medals</a></li>
+						  <li><a href="7category.html">Brass Plates</a></li>
+						</ul>
+					</div>
+					<div class="dc-con">
+						<ul>
+						  <li><h4>Trophy</h4></li>
+						  <li><a href="8category.html">Glass Trophy</a></li>
+						  <li><a href="9category.html">Statue Trophy</a></li>
+						  <li><a href="10category.html">Cup Trophy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<a href="#footer">Contact Us</a>
+			<a href="https://www.jtexpress.ph/trajectoryQuery?flag=1">Tracking</a>
+			<div class="dropdown-content-right">
+				<a id="Search1"><i class="fa fa-search" aria-hidden="true"></i></a>
+				<div class="search-con">
+					<input type="text" id="search-input" placeholder="Search...">
+				</div>
+				<a id="Cart1"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+				<a id="Login1" href="Login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+				<script type="text/javascript">
+					const search1 = document.getElementById('Search1');
+					const searchCon = document.querySelector('.search-con');
+					search1.addEventListener('click', function() {
+					    if (searchCon.style.display === 'block') {
+					        searchCon.style.display = 'none';
+					    } else {
+					        searchCon.style.display = 'block';
+					    }
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+	<div class="prod-container">
+		<div class="product">
+			<img src="daily discoveries\images\dd9.jpg" alt="Plaques">
+			<div class="social-share">Share:
+		        <a href="#"><i class="fab fa-facebook"></i></a>
+		        <a href="#"><i class="fab fa-twitter"></i></a>
+		        <a href="#"><i class="fab fa-pinterest"></i></a>
+		        <a href="#"><i class="fab fa-instagram"></i></a>
+		  </div>
+		  <div class="wishlist">Add to Wishlist
+		        <i class="far fa-heart"></i>
+		  </div>
+		</div>
+	  <div class="info-container">
+		  <div class="info">
+			    <h1>Brass Plate</h1>
+			    <span class="rating">4.3k
+			      <i class="fa fa-star"></i>
+			      <i class="fa fa-star"></i>
+			      <i class="fa fa-star"></i>
+			      <i class="fa fa-star"></i>
+			      <i class="fa fa-star-half-o"></i>
+			      <a href="#">10.6k Rating</a>
+			      <span class="sold">23.5k sold</span>
+			    </span>
+			    <div class="price-section">
+			      <a class="price">&#8369; 650</a>
+			      <a class="discount">15% off for New Users</a>
+			    </div>
+			    <div>
+			    	<span class="in-stock">In Stock:</span>
+    				<span class="in-stock-n">168</span>
+			    </div>
+  		 	<div class="size-options">
+  		 	  <span class="size-label">Size:</span>
+          <span class="size" id="size-small" data-size="small" onclick="selectSize('size-small')">S</span>
+          <span class="size" id="size-medium" data-size="medium" onclick="selectSize('size-medium')">M</span>
+          <span class="size" id="size-large" data-size="large" onclick="selectSize('size-large')">L</span>
+          <span class="size" id="size-xlarge" data-size="xlarge" onclick="selectSize('size-xlarge')">XL</span>
+        </div>
+        <script type="text/javascript">
+          function selectSize(selectedSizeId) {
+            const sizeElements = document.querySelectorAll('.size');
+            sizeElements.forEach((sizeElement) => {
+                sizeElement.classList.remove('active');
+            });
+            const selectedSizeElement = document.getElementById(selectedSizeId);
+            if (selectedSizeElement) {
+                selectedSizeElement.classList.add('active');
+            }
+          }
+        </script>
+			<div class="quantity-section">
+		        <span class="qty-label">Quantity:</span>
+		        <input type="number" min="1" value="1" class="qty-input">
+		  </div>
+			<div class="action-buttons">
+		        <a href="Main.html"><button class="add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</button></a>
+		        <a href="Main.html">
+		        <button class="buy-now">Buy Now</button>
+		        </a>
+		  </div>
+		    <div class="free-shipping">
+		      <i class="fa fa-truck"></i> Free Shipping on orders above &#8369; 800!
+		  	</div>
+		</div>
+	 </div>
+  </div>
+  
+  <div class="toggle-con">
+	  <div class="left-box">
+  <div class="policy">
+    <a href="#">
+      <i class="fas fa-money-bill-alt" style="font-size: 15px;"></i>
+      <span class="policy-title">COD Policy</span>
+      <i class="fas fa-question-circle" style="font-size: 10px;"></i>
+    </a>
+    <div class="policy-content">
+      <p>We offer Cash on Delivery (COD) as a payment option for your convenience.</p>
+      <strong>How COD works:</strong>
+      <ol>
+        <li>Select COD as your payment method at checkout.</li>
+        <li>Pay for your order in cash to the courier upon delivery.</li>
+        <li>The courier will collect the payment amount and provide you with a receipt.</li>
+      </ol>
+    </div>
+    </div>
 
+    <div class="policy">
+    <a href="#">
+      <i class="fas fa-undo" style="font-size: 15px;"></i>
+      <span class="policy-title">Return Policy</span>
+      <i class="fas fa-question-circle" style="font-size: 10px;"></i>
+    </a>
+    <div class="policy-content">
+      <p>We want you to be completely satisfied with your purchase. If for any reason you are not, you can return most items within 3 days of receipt for a full refund or exchange.</p>
+      <strong>What can be returned?</strong>
+      <ol>
+        <li>Unused and unworn items in original packaging with tags attached.</li>
+        <li>Some items may be excluded from returns, such as perishable goods, customized items, or items sold during special promotions. Please check the product description for specific details.</li>
+      </ol>
+    </div>
+    </div>
+
+	  </div>
+	  <div class="info-tab">
+	  	<div class="specification">
+	  		<h4>Product Specification</h4>
+	  		<div class="spec-info">
+	  		<a class="category">Category</a>
+	  		<a class="material">Material</a>
+	  		<a class="style">Style</a>
+	  		<a class="color">Color / Pattern</a>
+	  		</div>
+	  		<div class="spec-info-2">
+	  		<a href="#">Rgc Mojello &gt; Brass Plates</a>
+	  		<a href="#">Brass Plate</a>
+	  		<a href="#">Classic</a>
+	  		<a href="#">Gold/Silver/Bronze</a>
+	  		</div>
+	  	</div>
+
+	  	<div class="description">
+	  		<h4>Product Description</h4>
+	  		<div class="desc-info">
+	  			<p>
+				    Exuding timeless elegance, our Brass Plates feature a classic design with a polished finish, offered in various sizes to suit different applications, 
+					and crafted with premium materials for lasting durability.</p>
+				<p>
+					<strong>Sophisticated Design:</strong> Featuring a sleek and minimalist design, our Brass Plates boast a smooth surface and crisp edges, perfect for adding a touch of sophistication to any award or plaque.</p>
+				<p><strong>Superior Quality:</strong>Crafted from high-quality brass materials and meticulously finished, our Brass Plates ensure exceptional quality and long-lasting performance, making them ideal for prestigious awards and commemorations.</p> 
+				<p><strong>Perfect Size:</strong>Available in a range of sizes, our Brass Plates offer versatility for various uses, from personalized engravings to decorative accents.</p>
+				
+				</p>
+	  		</div>
+	  	</div>
+	  </div>
+	</div>
+	<div class="review">
+		<div class="user-review">
+			<h3>Add Your Review</h3>
+			<div class="text-box">
+				<textarea rows="4" cols="50" placeholder="Write your review here..."></textarea>
+			</div>
+			<button class="submit-review-btn">Submit</button>
+		</div>
+		<hr>
+		<div class="reviewer">
+		  <img src="reviewer/teresa.jpg" alt="Reviewer Avatar">
+		  <div class="reviewer-details">
+			<div class="reviewer-name">Tess Tickle<span class="review-count">1 review</span></div>
+			<div class="reviewer-location"><i class="fas fa-map-marker-alt"></i>Marikina</div>
+		  </div>
+		  <div class="review-date">May 13, 2024</div>
+		</div>
+		<hr>
+		<div class="review-content">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Great Beer Mug!</h3>
+		  <p>This is a great beer mug! I was looking for a simple and classic glass mug to enjoy my favorite beers at home, and this one perfectly fits the bill. The glass is clear and high-quality, so I can appreciate the color and clarity of my beer.</p>
+		</div>
+		<div class="review-actions">
+		  <button class="useful-btn"><i class="fas fa-thumbs-up"></i>Useful</button>
+		  <button class="share-btn"><i class="fas fa-share"></i>Share</button>
+		</div>
+		<hr>
+
+		<div class="reviewer">
+		  <img src="reviewer/bobby.jpg" alt="Reviewer Avatar">
+		  <div class="reviewer-details">
+			<div class="reviewer-name">Ben Dover<span class="review-count">1 review</span></div>
+			<div class="reviewer-location"><i class="fas fa-map-marker-alt"></i>Recto</div>
+		  </div>
+		  <div class="review-date">May 10, 2024</div>
+		</div>
+		<hr>
+		<div class="review-content">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			<h3>Perfect size and shape for enjoying beer!</h3>
+		  <p>I love this beer mug! The 400ml size is perfect for me - it's not too big or too small. The shape of the mug is also great - it allows the aromas of the beer to come through nicely. I've been using this mug for a few weeks now, and I've really enjoyed trying out different craft beers with it</p>
+		</div>
+		<div class="review-actions">
+		  <button class="useful-btn"><i class="fas fa-thumbs-up"></i>Useful</button>
+		  <button class="share-btn"><i class="fas fa-share"></i>Share</button>
+		</div>
+		<hr>
+
+		<div class="reviewer">
+			<img src="reviewer/beer lover.jpg" alt="Reviewer Avatar">
+			<div class="reviewer-details">
+			  <div class="reviewer-name">Jack Meehoff<span class="review-count">1 review</span></div>
+			  <div class="reviewer-location"><i class="fas fa-map-marker-alt"></i>Caloocan</div>
+			</div>
+			<div class="review-date">May 8, 2024</div>
+		  </div>
+		  <hr>
+		  <div class="review-content">
+			  <i class="fa fa-star"></i>
+			  <i class="fa fa-star"></i>
+			  <i class="fa fa-star"></i>
+			  <i class="fa fa-star"></i>
+			  <i class="fa fa-star-half-o"></i>
+			  <h3>Great Value for the Price</h3>
+			<p>This is a great beer mug for the price. I was looking for an affordable option, and this mug definitely fits the bill. The glass is clear and seems to be of decent quality. The handle is comfortable to hold, and the size is good for most beers.</p>
+		  </div>
+		  <div class="review-actions">
+			<button class="useful-btn"><i class="fas fa-thumbs-up"></i>Useful</button>
+			<button class="share-btn"><i class="fas fa-share"></i>Share</button>
+		  </div>
+		  <hr>
+
+		  <div class="reviewer">
+			<img src="reviewer/jennifer.jpg" alt="Reviewer Avatar">
+			<div class="reviewer-details">
+			  <div class="reviewer-name">Jenna Tolls<span class="review-count">1 review</span></div>
+			  <div class="reviewer-location"><i class="fas fa-map-marker-alt"></i>Cavite</div>
+			</div>
+			<div class="review-date">May 4, 2024</div>
+		  </div>
+		  <hr>
+		  <div class="review-content">
+			  <i class="fa fa-star"></i>
+			  <i class="fa fa-star"></i>
+			  <i class="fa fa-star"></i>
+			  <i class="fa fa-star"></i>
+			  <i class="fa fa-star-half-o"></i>
+			  <h3>I am very satisfied!</h3>
+			<p>I'm very happy with this purchase and would recommend it to anyone looking for a good quality beer mug.</p>
+		  </div>
+		  <div class="review-actions">
+			<button class="useful-btn"><i class="fas fa-thumbs-up"></i>Useful</button>
+			<button class="share-btn"><i class="fas fa-share"></i>Share</button>
+		  </div>
+	</div>
+	<div class="footer" id="footer">
+	  <div class="footer-text">
+	    <h1>RGC Mojello</h1>
+	    190 Miguelin St., Barangay 423 Zone 43 1008 Sampaloc,<br>Metro Manila<br>
+	    (+63) 917-948-5481
+	    <br>rica.gabrielle10@gmail.com
+	    <p>Copyright 2024. All rights reserved</p>
+	  </div>
+	</div>
 </body>
-
 </html>
