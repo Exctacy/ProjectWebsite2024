@@ -13,6 +13,7 @@ body {
   background-color: white;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  
 }
 
 .product {
@@ -20,21 +21,16 @@ body {
   background-color: white;
   border-radius: 5px;
   margin: 0;
-/*position relative*/
 }
 
 .product img {
-  object-fit: cover; /*cover*/
+  object-fit: cover; 
   width: 350px;
   height: 350px;
   margin: 30px;
   margin-left: 50px;
 }
 
-/*.image-container {#42445A
-    position: relative;
-    display: inline-block;
-}*/
 .social-share{
 	margin: 0px 0px 5px 10px;
 	display: flex;
@@ -63,7 +59,7 @@ body {
 .info-container {
   display: flex;
   justify-content: space-between;
-  /*width: inherit;*/
+  
 }
 
 .info {
@@ -418,4 +414,113 @@ flex-direction: row;
 
 .user-review .submit-review-btn:hover {
   background-color: #0056b3;
+}
+
+@media only screen and (max-width: 768px) {
+ .main{
+  margin: 1% auto;
+  display: flex;
+  justify-content: center;
+ }
+  .prod-container {
+    width: 90%;
+    flex-direction: column;
+    display: block;
+    margin-right: 0%;
+  }
+  
+  .product img {
+    width: 100%;
+    
+  }
+  
+  .info-container {
+    flex-direction: column;
+  }
+  
+  .info {
+    padding: 10px;
+  }
+  
+  .in-stock, .in-stock-n {
+    text-align: left;
+  }
+
+  
+  .toggle-con {
+    width: 100%;
+    flex-direction: column;
+
+  }
+  .left-box{
+    width: 95%;
+    float: none;
+    margin-left: 20px;
+   
+  }
+  .info-tab {
+    margin-top: 20px;
+   align-content: center;
+   justify-content: center;
+  }
+  .specification h4, .description h4 {
+    margin-left: 8px;
+  }
+  .spec-info a, {
+      padding-left: 15px;
+  }
+  .spec-info-2 a {
+    padding-left: 0%;
+  }
+  .review {
+    width: 95%;
+    margin-left: 20px;
+  }
+  .user-review {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .text-box {
+    width: 90%;
+    margin-left: 5px;
+  }
+  .submit-review-btn{
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main {
+    margin: 5px auto;
+  }
+  
+  .prod-container {
+    width: 95%;
+  }
+  
+  .product img {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .info {
+    padding: 10px;
+  }
+  
+  .info h1 {
+    font-size: 24px;
+  }
+  
+  .price {
+    font-size: 30px;
+  }
+  
+  .qty-input {
+    width: 30px;
+  }
+  
+  .user-review {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 }
