@@ -230,8 +230,12 @@ body {
 }
 
 .product-info {
-  display: flex;  
+  display: flex; 
   margin-top: 10px; 
+}
+
+.text-overlay {
+	overflow: hidden;
 }
 
 .product-info button {
