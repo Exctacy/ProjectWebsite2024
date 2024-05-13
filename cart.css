@@ -147,5 +147,94 @@ body{
   .icon i {
     margin-left: 5px; 
     font-size: 20px;
+    color: #e4e2df;
   }
+  
+  
+@media only screen and (max-width: 768px) {
+
+    .cart-bg {
+      width: 100%;
+      margin: 0 auto;  
+      margin-right: 0;
+    }
+  
+    
+    body {
+      margin: 0;  /* Remove unnecessary body rule here */
+    }
+  
+    .cart-con {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      align-items: center
+    }
+ 
+    .cart-image img {
+      object-fit: fill;
+      height: auto;
+      border-radius: 10px; /* Add border radius to match the design */
+      
+    }
+  
+    .cart-content {
+      height: auto;
+      align-items: center;
+      justify-content: center;
+      margin: 0%;
+      width: 100%;
+      padding: 0%;
+      box-shadow: none;
+      border-top-left-radius: 0%;
+      border-top-right-radius: 0%;
+    }
+  
+    .cart-info {
+      margin-left: 75px;
+    }
+    .cart-info h2{
+        width: 200px;
+    }
+  
+    .quantity {
+      flex-direction: column;
+    }
+  
+    .check-out {
+      width: 100%;
+      font-size: 15px;
+      
+    }
+  
+    .payment-options {
+      width: 100%;
+      height: auto;
+      
+    }
+  .payment-con{
+   flex-wrap: wrap;
+   padding-bottom: 10px;
+   justify-content: center;
+  }
+    .payment-options button {
+        margin: 0;
+        padding: 10px;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        height: 50px;
+    }
+  
+    
+    .payment-options p{
+    font-size: 16px;
+     margin-left: 10px;
+     
+     align-self: center;
+    }
+    .icon i {
+     
+    }
+  }
+  
   
