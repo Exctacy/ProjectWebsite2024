@@ -230,12 +230,8 @@ body {
 }
 
 .product-info {
-  display: flex; 
+  display: flex;  
   margin-top: 10px; 
-}
-
-.text-overlay {
-	overflow: hidden;
 }
 
 .product-info button {
@@ -331,8 +327,12 @@ body {
   .cbutton {
     display: block;
   }
+  
 	.cbutton a {
 		border-radius: 100px;
 		width: 60%;	
+	}
+	.text-overlay {
+		overflow: hidden;
 	}
 }
