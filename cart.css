@@ -9,18 +9,33 @@
 
 body{
     margin: 0;
-  background-color: var(--grass);
+   justify-content: center;
+  align-items: center;
+  background-color: var(--gray);
 }
-.cart-icon a{
-    background-color: gray;
+.cart-bg {
+    background-color: var(--white);
+    margin:auto;
+    height: inherit;
+    width: 50%;
+    padding: 20px;
+    position: relative;
 }
+.Checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+
 .cart-con {
-    margin: 30px auto;
-    width: 60%;
-    background-color: var(--gray);
+    width: 90%;
+    background-color: var(--black);
     border-radius: 10px;
     display: flex;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    box-sizing: border-box;
+    position: relative; 
 }
 
 .cart-image img {
@@ -29,8 +44,9 @@ body{
     height: 200px;
     margin: 30px;
     border-radius: 20px;
-    background-color: var(--black);
+    background-color: var(--white);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
 }
 .cart-content{
     width: 100%;
@@ -40,6 +56,7 @@ body{
     margin: 30px 30px 0px 0px; 
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    flex: 1; 
 }
 .cart-info {
     display: flex;
@@ -47,7 +64,7 @@ body{
     justify-content: space-between;
     float: left;
     flex: 1;
-    width: 40%;
+    width: 60%;
 }
 
 .quantity{
@@ -65,6 +82,7 @@ body{
     background-color: var(--dgreen);
     padding-left: 20px;
     border-radius: 10px;
+    width: 100%;
   
 }
 .price {
@@ -87,23 +105,39 @@ body{
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .check-out-active{
-    background-color: var(--dgreen);
+    background-color: var(--gray);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
+
 .payment-options {
-    display: block;
-    float: right;
-    flex: 1;
-    width: 60%;
-    justify-content: center;
-    padding-top: 40px;
-    
-}
-.payment-options  p, .payment-options i{
-    margin-left: 30px;
-}
-.payment-options i{
-    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center; 
     flex-wrap: wrap;
-}
+    border-radius: 20px;
+    box-shadow: box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+
+.payment-options button{
+    margin-left: 5%;
+  }
+
+  .payment-options p {
+    margin-left: 5%;
+    margin-right: 2%;
+    font-family: 'Garamond';
+    font-weight: bold;
+  }
+  
+  .icon {
+    width: 33.33%; 
+    justify-content: space-between; 
+    margin: 0;
+    display: flex;
+  }
+  .icon i {
+    width: auto; 
+  }
   
