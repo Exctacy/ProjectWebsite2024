@@ -440,7 +440,7 @@ body {
 	box-sizing: content-box;
 	position: absolute;
 	width: 100%;
-	height: 1000px;
+	height: 100%;
 	margin: -100px 0 0 -50px;
 	padding: 50px;
 	padding-top: 125px;
