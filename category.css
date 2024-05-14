@@ -1,6 +1,7 @@
 .main *
 {
   margin: 0;
+  background-color: #e4e2df;
   padding: 0;
   box-sizing: border-box;
 }

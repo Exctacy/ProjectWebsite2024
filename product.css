@@ -466,7 +466,7 @@ flex-direction: row;
   .specification h4, .description h4 {
     margin-left: 8px;
   }
-  .spec-info a, {
+  .spec-info a {
       padding-left: 15px;
   }
   .spec-info-2 a {
