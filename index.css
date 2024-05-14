@@ -327,4 +327,10 @@ body {
  .top-nav {
 	display: none;
  }
+ .banner {
+	width: 100%;
+ }
+ .footer {
+	width: 100%;
+ }
 }

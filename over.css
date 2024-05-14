@@ -55,7 +55,7 @@
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: black;
   border-radius: 3px;
   
   z-index: 1;
@@ -98,7 +98,7 @@
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 50%;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
