@@ -19,6 +19,7 @@
 	display: flex;
 	overflow: hidden;
 	transition: 0.5s ease-in-out;
+	height: 300px;
 }
 .card:hover 
 {
