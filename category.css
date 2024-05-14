@@ -9,10 +9,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	min-height: 100vh;
+	margin-bottom: 0;
 }
 .card 
 {
-	height: 150px;
 	position: relative;
 	width: 250px;
 	background: #0000;
@@ -167,5 +168,5 @@ p
 }
 .titel
 {
-  margin: 5% -10% 18%;
+  margin: 0 0 -10% 18%;
 }
