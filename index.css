@@ -346,7 +346,7 @@ body {
 	left: 50px;
 	overflow: hidden;
 	width: 90%;
-	height: 1000px;
+	height: 100%;
 	
 	z-index: 20;
 	
@@ -439,7 +439,7 @@ body {
 	box-sizing: content-box;
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 1000px;
 	margin: -100px 0 0 -50px;
 	padding: 50px;
 	padding-top: 125px;
@@ -467,7 +467,8 @@ body {
   }
   .text-overlay {
 	overflow: hidden;
-	height: 50%;
+	height: 150px;
+	width: 150px;
   }
   .navigation {
 	overflow: hidden;
