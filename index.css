@@ -199,7 +199,9 @@ body {
   transition: opacity 0.3s ease-in-out;
   text-align: justify;
 }
-
+.text-overlay {
+	height: 80%;
+}
 .overlay p {
   margin: 10px;
 }
@@ -455,13 +457,15 @@ body {
   {
 	padding: 10px 0;
 	font-size: 22px;
+	margin-left: 5%;
   }
   
   #menuToggle input:checked ~ ul
   {
 	transform: none;
   }
-  .overlay {
+  .text-overlay {
 	overflow: hidden;
+	height: 50%;
   }
   }
