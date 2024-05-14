@@ -345,9 +345,6 @@ body {
 	position: relative;
 	top: 50px;
 	left: 50px;
-	overflow: hidden;
-	width: 90%;
-	height: 100%;
 	
 	z-index: 20;
 	
