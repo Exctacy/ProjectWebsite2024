@@ -345,6 +345,8 @@ body {
 	position: relative;
 	top: 50px;
 	left: 50px;
+	height: 100%;
+	width: 100%;
 	
 	z-index: 20;
 	
@@ -441,7 +443,7 @@ body {
 	margin: -100px 0 0 -50px;
 	padding: 50px;
 	padding-top: 125px;
-	z-index: 21;
+	z-index: 19;
 	
 	background: #ededed;
 	list-style-type: none;
