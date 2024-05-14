@@ -24,9 +24,9 @@ body {
 }
 
 .product img {
-  object-fit: fill; 
-  width: 200px;
-  height: 200px;
+  object-fit: cover; 
+  width: 350px;
+  height: 350px;
   margin: 30px;
   margin-left: 50px;
 }
