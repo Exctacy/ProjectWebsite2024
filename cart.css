@@ -151,7 +151,7 @@ body{
   }
   
   
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
 
     .cart-bg {
       width: 100%;
@@ -224,16 +224,11 @@ body{
         border-bottom-right-radius: 0%;
         height: 50px;
     }
-  
-    
+      
     .payment-options p{
     font-size: 16px;
      margin-left: 10px;
-     
      align-self: center;
-    }
-    .icon i {
-     
     }
   }
   
