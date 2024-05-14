@@ -342,7 +342,9 @@ body {
   #menuToggle
   {
 	display: block;
-	position: relative;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 	top: 50px;
 	left: 50px;
 	
@@ -431,15 +433,11 @@ body {
 	transform: rotate(-45deg) translate(0, -1px);
   }
   
-  #menuToggle:hover #menu {
-	display: block;
-  }
   #menu
   {
 	overflow-y: scroll;
 	box-sizing: content-box;
 	position: absolute;
-	display: none;
 	width: 100%;
 	height: 100%;
 	margin: -100px 0 0 -50px;
