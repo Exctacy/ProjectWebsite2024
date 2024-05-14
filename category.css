@@ -10,12 +10,12 @@
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 0;
+	z-index: 10;
 }
 .card 
 {
 	position: relative;
 	width: 250px;
-	height: 150px;
 	background: #0000;
 	display: flex;
 	overflow: hidden;
