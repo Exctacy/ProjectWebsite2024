@@ -4,21 +4,15 @@
 	--alt-white: #f5f6d2;
 	--gray: #5f5f5f;
 	--green: #4B6F44;
-	--ghostwhite: ghostwhite;
-	--blue: #3498db;
-	--hover-blue: #2980b9;
-	--text-font: 'Garamond', serif;
-	--font-size-large: 20px;
-	--font-size-medium: 16px;
-	--border-radius: 15px;
-	--transition-speed: 0.3s;
 }
-
 body {
 	margin: 0;
 }
-
-.top-nav {
+.top {
+	height: 98px;
+	width: 100%;
+}
+.top-nav{
 	height: 98px;
 	background-color: var(--black);
 	margin: 0 auto;
@@ -26,360 +20,319 @@ body {
 	position: fixed;
 	width: 100%;
 	z-index: 10;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0 20px;
 }
-
-.top-nav a,
-.dropbtn {
-	color: var(--ghostwhite);
+.top-nav a {
+	padding: 0 20px;
+	background-color: inherit;
+	color: ghostwhite;
 	text-decoration: none;
-	font-family: var(--text-font);
+	float: left;
+	font-family: Garamond, serif;
 	font-weight: bold;
-	font-size: var(--font-size-large);
-	line-height: 98px;
-	padding: 0 20px;
-	transition: background-color var(--transition-speed) ease-in-out;
+	font-size: 20px;
+	line-height: 100px;
+	height: 100px;
+  vertical-align: middle;
 }
-
-.top-nav a:hover,
-.dropdown:hover .dropbtn {
-	background-color: var(--gray);
-	color: var(--white);
-}
-
 #top-logo {
 	width: 100px;
-	height: 100px;
-	object-fit: cover;
-	border-radius: var(--border-radius) 0 0 0;
-	z-index: 1;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    z-index: 1;
 }
-
+.top-nav .top-logo {
+    line-height: 100px;
+    float: left;
+    height: 100px;
+}
 .dropdown {
 	float: left;
 	overflow: hidden;
+}	
+.dropbtn {
+	padding: 35px;
+	background-color: inherit;
+	color: ghostwhite;
+	border: none;
+	font-family: Garamond, serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 4%;
 }
-
 .dropdown-content {
 	display: none;
-	position: absolute;
-	background-color: var(--white);
-	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	background-color: ghostwhite;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+	z-index: 1;
 	width: 60%;
 	height: 250px;
-	top: 98px;
+	background-color: white;
+	margin: 0;
 }
-
-.dropdown:hover .dropdown-content {
-	display: flex;
-	justify-content: space-between;
-}
-
 .dc-con {
-	font-size: var(--font-size-large);
+	background-color: white;
+	height: 100%;
+	font-size: 20px;
 	display: flex;
-	justify-content: space-between;
-	width: 100%;
 }
-
 .dc-con a {
-	color: var(--black);
+	color: black;
 	height: 30px;
 	line-height: 30px;
 	text-decoration: none;
 }
-
 .dropdown-content h4 {
-	margin: 3% auto 3% 5%;
-	color: var(--green);
+  margin: 3% auto 3% 5%;
+  color: var(--green);
 }
-
-.dropdown-content ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+.dropdown-content ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-
+#toplogo:hover {
+	background-color: black;
+}
+.top-nav a:hover, .dropdown:hover .dropbtn {
+	background-color: var(--gray);
+	color: var(--white);
+	transition: background-color 0.3s ease-in-out;
+}
+.dropdown:hover .dropdown-content {
+	display: flex;
+	justify-content: space-between;
+}
+.dropdown-content-right {
+	float: right;
+	height: 100px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dropdown-content-right i {
+	padding: 0 20px;
+}
 .search-con {
 	display: none;
 	position: relative;
 	z-index: 1;
 	width: 300px;
 }
-
 #search-input {
 	width: 100%;
-	padding: 8px 10px;
-	margin: 8px 0;
+  	padding: 8px 10px;
+  	margin: 8px 0;
 	border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.banner {
+	min-height: 500px;
+	margin: 0 auto;
+	align-content: center;
 	box-sizing: border-box;
 }
-
-.banner {
-	width: 100%;
-	max-height: 500px;
-	overflow: hidden;
-}
-
 .banner img {
-	width: 100%;
-	height: auto;
-	display: block;
 	vertical-align: middle;
 }
-
 .mySlides {
 	display: none;
 }
-
 .mySlides img {
 	width: 100%;
 	height: 500px;
 }
-
 .Slide-con {
-	position: relative;
-	margin: auto;
+  	position: relative;
+  	margin: auto;
 }
-
 .dot {
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
+  	height: 15px;
+  	width: 15px;
+  	margin: 0 2px;
+  	background-color: #bbb;
+  	border-radius: 50%;
+  	display: inline-block;
+  	transition: background-color 0.6s ease;
 }
-
 .active {
-	background-color: #717171;
+  	background-color: #717171;
 }
 
 .fade {
-	animation-name: fade;
-	animation-duration: 2s;
+  	animation-name: fade;
+  	animation-duration: 2s;
 }
 
 @keyframes fade {
-	from {
-		opacity: 0.4;
-	}
-	to {
-		opacity: 1;
-	}
+  	from {opacity: .4} 
+  	to {opacity: 1}
 }
-
 .content {
-	margin: 15% 5%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	gap: 30px;
-	justify-content: center;
+    margin: 15% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    justify-content: center;
 }
-
 .title {
-	width: 100%;
-	font-size: 20px;
-	margin-left: 8%;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 8%;
 }
-
 .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: forestgreen;
-	color: white;
-	opacity: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	transition: opacity var(--transition-speed);
-	text-align: justify;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: forestgreen;
+  color: white;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+  text-align: justify;
 }
 
 .overlay p {
-	margin: 10px;
+  margin: 10px;
 }
 
 .front-card {
-	position: relative;
-	width: 30%;
-	height: 300px;
-	background-color: var(--white);
-	border-radius: var(--border-radius);
-	box-shadow: 0px 0px 10px lightgray;
-	overflow: hidden;
-	transition: box-shadow var(--transition-speed);
+  position: relative;
+  width: 30%;
+  height: 300px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px lightgray;
+  overflow: hidden;
 }
 
 .front-card:hover {
-	box-shadow: 0px 8px 16px green;
+  box-shadow: 0px 8px 16px 0px green;
 }
 
 .front-card:hover .overlay {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 .front-card img {
-	object-fit: fill;
-	width: 90%;
-	height: 250px;
-	border-radius: var(--border-radius);
+  object-fit: fill;
+  width: 90%;
+  height: 250px;
+  border-radius: 15px;
 }
 
 .product-info {
-	display: flex;
-	margin-top: 10px;
+  display: flex;  
+  margin-top: 10px; 
 }
 
 .product-info button {
-	margin-right: 10px;
-	padding: 5px 10px;
-	border: none;
-	border-radius: 5px;
-	background-color: var(--blue);
-	color: var(--white);
-	cursor: pointer;
-	transition: background-color var(--transition-speed);
+  margin-right: 10px; 
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db; 
+  color: white;
+  cursor: pointer;
 }
 
 .product-info button:hover {
-	background-color: var(--hover-blue);
+  background-color: #2980b9;
 }
 
 .rating {
-	margin-bottom: 5px;
-	margin-right: 10px;
+  margin-bottom: 5px;
+  margin-right: 10px;
 }
 
 .rating i {
-	font-size: var(--font-size-medium);
-	margin-right: 2px;
+  font-size: 16px;
+  margin-right: 2px;
 }
 
 .cbutton {
-	overflow: hidden;
-	width: 100%;
-	text-align: center;
-	display: none;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    display: none;
 }
-
 .cbutton a {
-	background-color: var(--black);
-	color: var(--ghostwhite);
-	display: inline-block;
-	padding: 8px 12px;
-	margin: 20px auto;
-	text-decoration: none;
-	border-radius: 8px;
-	align-items: center;
-	transition: background-color var(--transition-speed);
+    background-color: black;
+    color: ghostwhite;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 20px auto;
+    text-decoration: none;
+    border-radius: 8px;
+    align-items: center;
 }
-
 .cbutton a:hover {
-	background-color: lightgray;
-	color: var(--black);
-	box-shadow: 0px 0px 10px 0px var(--black);
+    background-color: lightgray;
+    color: black;
+    box-shadow: 0px 0px 10px 0px black;
 }
-
 .benefit-center {
-	margin-top: 5%;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-	gap: 60px;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 60px;
 }
-
 .benefit {
-	border: 1px solid #ccc;
-	padding: 16px 16px 32px 16px;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 16px 16px 32px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-
 .benefit .icon {
-	color: var(--green);
-	font-size: 64px;
+  color: var(--green);
+  font-size: 64px;
 }
-
 .benefit h4 {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
-
 .benefit .text {
-	font-size: 24px;
-	color: #777;
+  font-size: 24px;
+  color: #777;
 }
-
 .footer {
 	height: 250px;
 	width: 100%;
-	background-color: var(--black);
+	background-color: black;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	flex-direction: row;
+	align-items: right;
+	text-align: right;
 	color: var(--white);
+	float: right;
+	letter-spacing: 1px;
 }
 
-.footer-content {
-	margin: 10px 0;
-	text-align: center;
-}
-
-.footer-content ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.footer-content ul li a {
-	color: var(--white);
-	text-decoration: none;
-}
-
-.footer-content ul li a:hover {
-	color: var(--gray);
+.footer-text {
+  margin-left: 48%;
+  width: 50%;
+  font-size: 15px;
+  
 }
 
 @media screen and (max-width: 1200px) {
-	.cbutton {
-		display: block;
-	}
-
+  .cbutton {
+    display: block;
+  }
+  
 	.cbutton a {
 		border-radius: 100px;
-		width: 60%;
+		width: 60%;	
 	}
 	.text-overlay {
 		overflow: hidden;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.front-card {
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	.top-nav {
-		flex-direction: column;
-		height: auto;
-		padding: 10px 0;
-	}
-	.top-nav a,
-	.dropbtn {
-		line-height: 1.5;
-		padding: 10px;
-	}
-	.dropdown-content {
-		width: 100%;
 	}
 }
