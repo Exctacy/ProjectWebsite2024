@@ -342,11 +342,11 @@ body {
   #menuToggle
   {
 	display: block;
-	position: relative;
+	position: fixed;
 	top: 50px;
 	left: 50px;
 	height: 100%;
-	width: 100%;
+	width: 1000px;
 	
 	z-index: 20;
 	
@@ -443,7 +443,7 @@ body {
 	margin: -100px 0 0 -50px;
 	padding: 50px;
 	padding-top: 125px;
-	z-index: 19;
+	z-index: 15;
 	
 	background: #ededed;
 	list-style-type: none;
@@ -470,8 +470,5 @@ body {
 	overflow: hidden;
 	height: 150px;
 	width: 100%;
-  }
-  .navigation {
-	overflow: hidden;
   }
   }
