@@ -9,8 +9,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 0;
-	z-index: 10;
+	margin-top: 15%;
 }
 .card 
 {
