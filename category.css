@@ -12,13 +12,10 @@ body {
 	display: flex ;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
 	margin-bottom: 0;
-	width: 80%;
 }
 .card 
 {
-	flex: 0 0 33.3333%;
 	position: relative;
 	width: 250px;
 	height: 380px;
