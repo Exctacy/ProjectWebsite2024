@@ -1,4 +1,4 @@
-.banner {
+.banner1 {
   background-color: white;
   margin: 0 auto;
   display: flex;
@@ -8,7 +8,6 @@
 }
 form {
   width: 30%;
-  height: 100%;
 }
 input[type=text], input[type=password], input[type=email]{
   width: 100%;
