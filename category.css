@@ -9,13 +9,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 80vh;
+	min-height: 100vh;
+	margin-bottom: 0;
 }
 .card 
 {
 	position: relative;
 	width: 250px;
-	height: 150px;
+	height: 380px;
 	background: #0000;
 	display: flex;
 	overflow: hidden;
