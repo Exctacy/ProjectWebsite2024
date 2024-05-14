@@ -9,10 +9,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 20%;
 }
 .card 
 {
+	margin-top: 10%;
 	position: relative;
 	width: 250px;
 	background: #0000;
@@ -168,5 +168,4 @@ p
 .titel
 {
   margin: 0 0 -10% 18%;
-  z-index: 10;
 }
