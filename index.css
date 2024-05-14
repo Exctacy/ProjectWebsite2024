@@ -342,10 +342,10 @@ body {
   #menuToggle
   {
 	display: block;
-	position: fixed;
+	position: relative;
 	top: 50px;
 	left: 50px;
-	height: 100%;
+	height: 1000px;
 	width: 100%;
 	
 	z-index: 20;
@@ -437,7 +437,7 @@ body {
   {
 	overflow-y: scroll;
 	box-sizing: content-box;
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	margin: -100px 0 0 -50px;
