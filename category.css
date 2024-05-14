@@ -12,7 +12,7 @@
 }
 .card 
 {
-	height: 300px;
+	height: inherit;
 	position: relative;
 	width: 250px;
 	background: #0000;
