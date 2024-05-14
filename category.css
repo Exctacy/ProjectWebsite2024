@@ -12,7 +12,11 @@ body {
 	display: flex ;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 	margin-bottom: 0;
+}
+.main>* {
+	flex: 0 0 33%;
 }
 .card 
 {
