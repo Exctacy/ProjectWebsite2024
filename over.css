@@ -1,5 +1,5 @@
 
-nav {
+#menuToggle {
   display: none;
 }
 @media screen and (max-width:700px) {
