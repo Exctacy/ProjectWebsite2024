@@ -8,6 +8,7 @@
 }
 form {
   width: 30%;
+  height: 100%;
 }
 input[type=text], input[type=password], input[type=email]{
   width: 100%;
@@ -53,7 +54,7 @@ span a {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   form {
     width: 90%;
   }
