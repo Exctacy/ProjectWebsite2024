@@ -335,19 +335,20 @@ body {
 	width: 90%;
  }
  .footer {
-	width: 90%;
+	width: 100%;
+	margin: 0;
  }
   #menuToggle
   {
 	display: block;
 	position: relative;
-	top: 40px;
-	left: 30px;
+	top: 50px;
+	left: 50px;
 	overflow: hidden;
 	width: 90%;
 	height: 1000px;
 	
-	z-index: 1;
+	z-index: 20;
 	
 	-webkit-user-select: none;
 	user-select: none;
@@ -467,5 +468,8 @@ body {
   .text-overlay {
 	overflow: hidden;
 	height: 50%;
+  }
+  .navigation {
+	overflow: hidden;
   }
   }
