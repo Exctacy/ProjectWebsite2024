@@ -444,6 +444,7 @@ body {
 	margin: -100px 0 0 -50px;
 	padding: 50px;
 	padding-top: 125px;
+	z-index: 21;
 	
 	background: #ededed;
 	list-style-type: none;
