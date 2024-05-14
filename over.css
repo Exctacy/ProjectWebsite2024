@@ -7,8 +7,8 @@
 {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
+  top: 40px;
+  left: 40px;
   
   z-index: 1;
   
@@ -103,7 +103,7 @@
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  background: #000000;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   
