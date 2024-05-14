@@ -168,4 +168,5 @@ p
 .titel
 {
   margin: 0 0 -10% 18%;
+  z-index: 10;
 }
