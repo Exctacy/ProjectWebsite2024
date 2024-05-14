@@ -174,3 +174,11 @@ p
 {
   margin: 5% 0 -10% 18%;
 }
+@media screen and (max-width:700px) {
+	.main {
+		flex-direction: column;
+	}
+	.card {
+		flex: 1;
+	}
+}
